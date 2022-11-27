@@ -61,6 +61,14 @@ Nest is [MIT licensed](LICENSE).
 ---
 
 # API description
+# API deploy on Server
+http://159.223.67.118:3000/
+| API Name | URL           |
+| ---------- | --------------- |
+| List fixture       | http://159.223.67.118:3000/board/fixtures?from=2022-11-20&to=2022-11-30 |
+| Check existing fixture| http://159.223.67.118:3000/check-existing-fixtures?date=2022-11-27 |
+
+
 ## API: List fixture
 ## GET http://localhost:3000/board/fixtures?from=2022-11-20&to=2022-11-30
 
@@ -253,6 +261,7 @@ Nest is [MIT licensed](LICENSE).
   "message": "Internal Server Error"
 }
 ```
+
 ## API: Check existing fixture on the date
 ## GET http://localhost:3000/check-existing-fixtures?date=2022-11-27
 ### Query params
